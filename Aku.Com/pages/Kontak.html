@@ -4,47 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akuu.com</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <h1>TentangAku.Com</h1>
-    <ul>
-      <li><a href="../indek.html"> Home</a></li>
-      <li>Kegiatan</li>
-      <ul>
-        <li><a href="Hobi.html"> Hobi</a></li>
-        <li><a href="Sekolah.html"> Sekolah</a></li>
-        <li><a href="Cita-Cita.html"> Cita - Cita</a></li>
-        <li><a href="Next10year.html"> Next 10 Year</a></li>
-      </ul>
-      <li><a href="Kontak.html"> Kontak</a></li>
-    </ul>
-    <hr />
-    <form action="../indek.html" method="get">
-      <fieldset>
-        <legend>Informasi</legend>
-        <label for="nama">Nama : </label>
-        <input
-          type="text"
-          name="nama"
-          id=""
-          placeholder="Nama Antum !"
-          required
-        />
-        <br />
-        <label for="email">Email : </label>
-        <input
-          type="email"
-          name="Email"
-          id=""
-          placeholder="Email Anda !"
-          required
-        />
-        <br />
-        <label for="alamat">Alamat : </label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <br />
-        <input type="submit" name="kirim" value="kirim" id="" />
-      </fieldset>
-    </form>
+    <div class="wrapper">
+      <div class="content">
+        <header>
+          <img src="../images/Aku.jpeg" alt="" />
+          <h1>TentangAku.Com</h1>
+          <nav>
+            <ul>
+              <li><a href="../indek.html"> Home</a></li>
+              <li>
+                <a href="#"> Kegiatan</a>
+                <ul>
+                  <li><a href="Hobi.html"> Hobi </a></li>
+                  <li><a href="Sekolah.html"> Sekolah </a></li>
+                  <li><a href="Cita-Cita.html"> Cita - Cita </a></li>
+                  <li><a href="Next10year.html"> Next10year </a></li>
+                </ul>
+              </li>
+              <li><a href="Kontak.html"> Kotak</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section>
+          <form action="../indek.html" method="get">
+            <fieldset>
+              <legend>Informasi</legend>
+              <label for="nama">Nama : </label>
+              <input
+                type="text"
+                name="nama"
+                id=""
+                placeholder="Nama Antum !"
+                required
+              />
+              <br />
+              <label for="email">Email : </label>
+              <input
+                type="email"
+                name="Email"
+                id=""
+                placeholder="Email Anda !"
+                required
+              />
+              <br />
+              <label for="alamat">Alamat : </label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <br />
+              <input type="submit" name="kirim" value="kirim" id="" />
+            </fieldset>
+          </form>
+        </section>
+        <footer>
+          <p>
+            <i class="fa fa-copyright" aria-hidden="true"
+              >Crate by: smkrevit.com</i
+            >
+          </p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
